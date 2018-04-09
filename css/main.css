@@ -1,0 +1,124 @@
+body{
+  position: absolute;
+  margin: auto;
+  background: url(../images/bcg1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hidden{
+  display: none;
+}
+
+#header{
+  position: fixed;
+  background: black;
+  width: 100%;
+}
+
+.filterNav{
+  float: left;
+  list-style: none;
+  margin-left: 190px;
+}
+
+.filterNav li{
+  display: inline;
+  color: white;
+  margin-right: 30px;
+}
+
+.filterNav li a{
+  text-decoration: none;
+  color: white;
+}
+
+#sign{
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+}
+
+#sign li a{
+  text-decoration: none;
+  color: white;
+}
+
+#content{
+  margin-top: 150px;
+  padding-left: 150px;
+  color: white;
+}
+
+#editcontent{
+  float: left;
+  clear: both;
+  margin-bottom: 200px;
+  text-decoration: none;
+}
+
+#editcontent p{
+  font-size: 30px;
+  color: white;
+  padding-left: 480px;
+}
+
+.movieimg{
+  width: 250px;
+}
+
+.imgcon{
+  width: 250px;
+  height: 370px;
+  overflow: hidden;
+}
+
+.moviecon{
+  float: left;
+  margin-right: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.details{
+  color: white;
+}
+
+#deimg{
+  width: 400px;
+  float: left;
+  margin-left: 100px;
+}
+
+#info{
+  width: 300px;
+  float: right;
+  height: 505px;
+  opacity: 0.9;
+  margin-right: 270px;
+  padding: 90px 50px 0 50px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#info p{
+  line-height: 40px;
+}
+
+#video{
+  float: left;
+  margin-top: 50px;
+  /* clear: both; */
+  width: 800px;
+  margin-left: 160px;
+  margin-bottom: 40px;
+}
+
+a{
+  transition: 0.3s all ease;
+}
+
+a:hover{
+  color: grey;
+}
